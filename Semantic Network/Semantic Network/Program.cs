@@ -11,7 +11,6 @@ namespace Semantic_Network
     {
         static void Main(string[] args)
         {
-            //lox
             Encoding enc = Encoding.GetEncoding(1251);
             StreamReader file = new StreamReader("data.txt",enc);
             Semantic_Network network = new Semantic_Network(file);
